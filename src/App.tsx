@@ -4,10 +4,12 @@ import { Route, Routes as RoutesImport, BrowserRouter } from "react-router-dom";
 import EXAMPLE_SUBMISSIONS, { Submission } from "ExampleSubmissions";
 import styles from "css/App.module.css";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const USER_ID = 0;
+
 function VotePage(): JSX.Element {
-  const randomExample: Submission =
-    EXAMPLE_SUBMISSIONS[Math.floor(Math.random() * EXAMPLE_SUBMISSIONS.length)];
-  console.log(randomExample);
+  const example: Submission = EXAMPLE_SUBMISSIONS[0];
+  console.log(example);
 
   return (
     <div className={styles.container}>
