@@ -42,6 +42,7 @@ module.exports = {
     "import/extensions": "off",
     "import/order": "off",
     "import/no-unresolved": "off",
+    "no-console": "off",
     "no-nested-ternary": "off",
     "no-plusplus": "off",
     "no-shadow": "off",
@@ -50,6 +51,7 @@ module.exports = {
     "prettier/prettier": "error",
 
     "react/destructuring-assignment": "off",
+    "react/button-has-type": "off",
     "react/function-component-definition": "off",
     "react/jsx-filename-extension": ["error", { extensions: [".tsx", ".jsx"] }],
     "react/jsx-props-no-spreading": "off",
